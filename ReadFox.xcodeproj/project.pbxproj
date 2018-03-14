@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DC13DDA20591CAD0015687E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC13DD920591CAD0015687E /* AppDelegate.swift */; };
+		9DC13DDC20591CAD0015687E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC13DDB20591CAD0015687E /* ViewController.swift */; };
+		9DC13DDF20591CAD0015687E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC13DDD20591CAD0015687E /* Main.storyboard */; };
+		9DC13DE220591CAD0015687E /* ReadFox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DC13DE020591CAD0015687E /* ReadFox.xcdatamodeld */; };
+		9DC13DE420591CAD0015687E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC13DE320591CAD0015687E /* Assets.xcassets */; };
+		9DC13DE720591CAD0015687E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC13DE520591CAD0015687E /* LaunchScreen.storyboard */; };
+		9DC13DF220591CAE0015687E /* ReadFoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC13DF120591CAE0015687E /* ReadFoxTests.swift */; };
+		9DC13DFD20591CAE0015687E /* ReadFoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC13DFC20591CAE0015687E /* ReadFoxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DC13DEE20591CAE0015687E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DC13DCE20591CAD0015687E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC13DD520591CAD0015687E;
+			remoteInfo = ReadFox;
+		};
+		9DC13DF920591CAE0015687E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DC13DCE20591CAD0015687E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC13DD520591CAD0015687E;
+			remoteInfo = ReadFox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DC13DD620591CAD0015687E /* ReadFox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadFox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC13DD920591CAD0015687E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DC13DDB20591CAD0015687E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DC13DDE20591CAD0015687E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DC13DE120591CAD0015687E /* ReadFox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReadFox.xcdatamodel; sourceTree = "<group>"; };
+		9DC13DE320591CAD0015687E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DC13DE620591CAD0015687E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DC13DE820591CAD0015687E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC13DED20591CAE0015687E /* ReadFoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadFoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC13DF120591CAE0015687E /* ReadFoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFoxTests.swift; sourceTree = "<group>"; };
+		9DC13DF320591CAE0015687E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC13DF820591CAE0015687E /* ReadFoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadFoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC13DFC20591CAE0015687E /* ReadFoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFoxUITests.swift; sourceTree = "<group>"; };
+		9DC13DFE20591CAE0015687E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC13DD320591CAD0015687E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC13DEA20591CAE0015687E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC13DF520591CAE0015687E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DC13DCD20591CAD0015687E = {
+			isa = PBXGroup;
+			children = (
+				9DC13DD820591CAD0015687E /* ReadFox */,
+				9DC13DF020591CAE0015687E /* ReadFoxTests */,
+				9DC13DFB20591CAE0015687E /* ReadFoxUITests */,
+				9DC13DD720591CAD0015687E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC13DD720591CAD0015687E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC13DD620591CAD0015687E /* ReadFox.app */,
+				9DC13DED20591CAE0015687E /* ReadFoxTests.xctest */,
+				9DC13DF820591CAE0015687E /* ReadFoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC13DD820591CAD0015687E /* ReadFox */ = {
+			isa = PBXGroup;
+			children = (
+				9DC13DD920591CAD0015687E /* AppDelegate.swift */,
+				9DC13DDB20591CAD0015687E /* ViewController.swift */,
+				9DC13DDD20591CAD0015687E /* Main.storyboard */,
+				9DC13DE320591CAD0015687E /* Assets.xcassets */,
+				9DC13DE520591CAD0015687E /* LaunchScreen.storyboard */,
+				9DC13DE820591CAD0015687E /* Info.plist */,
+				9DC13DE020591CAD0015687E /* ReadFox.xcdatamodeld */,
+			);
+			path = ReadFox;
+			sourceTree = "<group>";
+		};
+		9DC13DF020591CAE0015687E /* ReadFoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DC13DF120591CAE0015687E /* ReadFoxTests.swift */,
+				9DC13DF320591CAE0015687E /* Info.plist */,
+			);
+			path = ReadFoxTests;
+			sourceTree = "<group>";
+		};
+		9DC13DFB20591CAE0015687E /* ReadFoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DC13DFC20591CAE0015687E /* ReadFoxUITests.swift */,
+				9DC13DFE20591CAE0015687E /* Info.plist */,
+			);
+			path = ReadFoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DC13DD520591CAD0015687E /* ReadFox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC13E0120591CAE0015687E /* Build configuration list for PBXNativeTarget "ReadFox" */;
+			buildPhases = (
+				9DC13DD220591CAD0015687E /* Sources */,
+				9DC13DD320591CAD0015687E /* Frameworks */,
+				9DC13DD420591CAD0015687E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadFox;
+			productName = ReadFox;
+			productReference = 9DC13DD620591CAD0015687E /* ReadFox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DC13DEC20591CAE0015687E /* ReadFoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC13E0420591CAE0015687E /* Build configuration list for PBXNativeTarget "ReadFoxTests" */;
+			buildPhases = (
+				9DC13DE920591CAE0015687E /* Sources */,
+				9DC13DEA20591CAE0015687E /* Frameworks */,
+				9DC13DEB20591CAE0015687E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DC13DEF20591CAE0015687E /* PBXTargetDependency */,
+			);
+			name = ReadFoxTests;
+			productName = ReadFoxTests;
+			productReference = 9DC13DED20591CAE0015687E /* ReadFoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DC13DF720591CAE0015687E /* ReadFoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC13E0720591CAE0015687E /* Build configuration list for PBXNativeTarget "ReadFoxUITests" */;
+			buildPhases = (
+				9DC13DF420591CAE0015687E /* Sources */,
+				9DC13DF520591CAE0015687E /* Frameworks */,
+				9DC13DF620591CAE0015687E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DC13DFA20591CAE0015687E /* PBXTargetDependency */,
+			);
+			name = ReadFoxUITests;
+			productName = ReadFoxUITests;
+			productReference = 9DC13DF820591CAE0015687E /* ReadFoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC13DCE20591CAD0015687E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Yerkegali Abubakirov";
+				TargetAttributes = {
+					9DC13DD520591CAD0015687E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9DC13DEC20591CAE0015687E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9DC13DD520591CAD0015687E;
+					};
+					9DC13DF720591CAE0015687E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9DC13DD520591CAD0015687E;
+					};
+				};
+			};
+			buildConfigurationList = 9DC13DD120591CAD0015687E /* Build configuration list for PBXProject "ReadFox" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DC13DCD20591CAD0015687E;
+			productRefGroup = 9DC13DD720591CAD0015687E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC13DD520591CAD0015687E /* ReadFox */,
+				9DC13DEC20591CAE0015687E /* ReadFoxTests */,
+				9DC13DF720591CAE0015687E /* ReadFoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC13DD420591CAD0015687E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC13DE720591CAD0015687E /* LaunchScreen.storyboard in Resources */,
+				9DC13DE420591CAD0015687E /* Assets.xcassets in Resources */,
+				9DC13DDF20591CAD0015687E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC13DEB20591CAE0015687E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC13DF620591CAE0015687E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC13DD220591CAD0015687E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC13DE220591CAD0015687E /* ReadFox.xcdatamodeld in Sources */,
+				9DC13DDC20591CAD0015687E /* ViewController.swift in Sources */,
+				9DC13DDA20591CAD0015687E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC13DE920591CAE0015687E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC13DF220591CAE0015687E /* ReadFoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC13DF420591CAE0015687E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC13DFD20591CAE0015687E /* ReadFoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DC13DEF20591CAE0015687E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DC13DD520591CAD0015687E /* ReadFox */;
+			targetProxy = 9DC13DEE20591CAE0015687E /* PBXContainerItemProxy */;
+		};
+		9DC13DFA20591CAE0015687E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DC13DD520591CAD0015687E /* ReadFox */;
+			targetProxy = 9DC13DF920591CAE0015687E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DC13DDD20591CAD0015687E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC13DDE20591CAD0015687E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DC13DE520591CAD0015687E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC13DE620591CAD0015687E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DC13DFF20591CAE0015687E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DC13E0020591CAE0015687E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DC13E0220591CAE0015687E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA3Z28FR54;
+				INFOPLIST_FILE = ReadFox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yerkegaliabubakirov.ReadFox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DC13E0320591CAE0015687E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA3Z28FR54;
+				INFOPLIST_FILE = ReadFox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yerkegaliabubakirov.ReadFox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DC13E0520591CAE0015687E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA3Z28FR54;
+				INFOPLIST_FILE = ReadFoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yerkegaliabubakirov.ReadFoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadFox.app/ReadFox";
+			};
+			name = Debug;
+		};
+		9DC13E0620591CAE0015687E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA3Z28FR54;
+				INFOPLIST_FILE = ReadFoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yerkegaliabubakirov.ReadFoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadFox.app/ReadFox";
+			};
+			name = Release;
+		};
+		9DC13E0820591CAE0015687E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA3Z28FR54;
+				INFOPLIST_FILE = ReadFoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yerkegaliabubakirov.ReadFoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadFox;
+			};
+			name = Debug;
+		};
+		9DC13E0920591CAE0015687E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KA3Z28FR54;
+				INFOPLIST_FILE = ReadFoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yerkegaliabubakirov.ReadFoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReadFox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC13DD120591CAD0015687E /* Build configuration list for PBXProject "ReadFox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC13DFF20591CAE0015687E /* Debug */,
+				9DC13E0020591CAE0015687E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC13E0120591CAE0015687E /* Build configuration list for PBXNativeTarget "ReadFox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC13E0220591CAE0015687E /* Debug */,
+				9DC13E0320591CAE0015687E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC13E0420591CAE0015687E /* Build configuration list for PBXNativeTarget "ReadFoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC13E0520591CAE0015687E /* Debug */,
+				9DC13E0620591CAE0015687E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC13E0720591CAE0015687E /* Build configuration list for PBXNativeTarget "ReadFoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC13E0820591CAE0015687E /* Debug */,
+				9DC13E0920591CAE0015687E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9DC13DE020591CAD0015687E /* ReadFox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9DC13DE120591CAD0015687E /* ReadFox.xcdatamodel */,
+			);
+			currentVersion = 9DC13DE120591CAD0015687E /* ReadFox.xcdatamodel */;
+			path = ReadFox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9DC13DCE20591CAD0015687E /* Project object */;
+}
