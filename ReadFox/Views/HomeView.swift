@@ -94,10 +94,13 @@ class HomeView: UIView {
     
     @objc private func defineView(sender: UIButton) {
         
+        let homeVC = HomeController()
+        
         if sender.tag == 0 {
 
             readingButton.setActive(state: true)
             mustReadButton.setActive(state: false)
+           
             
             UIView.animate(withDuration: 0.3, delay: 0, options: UIViewAnimationOptions.curveEaseIn, animations: {
                 self.readingView.isHidden = false
@@ -111,7 +114,7 @@ class HomeView: UIView {
             
             readingButton.setActive(state: false)
             mustReadButton.setActive(state: true)
-            
+           
             
             UIView.animate(withDuration: 0.3, delay: 0, options: UIViewAnimationOptions.allowAnimatedContent, animations: {
                 self.readingView.isHidden = true
@@ -159,7 +162,7 @@ class HomeView: UIView {
     
     private func setupConstraints(){
         
-        topStackView.anchor(top: self.safeTopAnchor, leading: self.safeLeadingAnchor, bottom: nil, trailing: self.safeTrailingAnchor, padding: .init(top: 28.0, left: 63.0, bottom: 0.0, right: 63.0))
+        topStackView.anchor(top: self.safeTopAnchor, leading: self.safeLeadingAnchor, bottom: nil, trailing: self.safeTrailingAnchor, padding: .init(top: 14.0, left: 63.0, bottom: 0.0, right: 63.0))
         
         readingView.anchor(top: self.topStackView.bottomAnchor, leading: self.safeLeadingAnchor, bottom: self.safeBottomAnchor, trailing: self.safeTrailingAnchor, padding: .init(top: 0.0, left: 0.0, bottom: 0.0, right: 0.0))
         

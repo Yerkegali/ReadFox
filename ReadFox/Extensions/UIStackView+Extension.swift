@@ -34,6 +34,15 @@ extension UIView {
         stackView.spacing = 7.0
         return stackView
     }
+    
+    func createStackView2(views: [UIView]) -> UIStackView {
+        let stackView = UIStackView(arrangedSubviews: views)
+        stackView.axis = .vertical
+        stackView.distribution = .fillProportionally
+        stackView.spacing = 7.0
+        return stackView
+    }
+    
 }
 
 extension UITextField {

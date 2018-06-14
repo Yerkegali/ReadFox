@@ -74,7 +74,7 @@ class ProfileController: UIViewController {
             if err != nil {
                 print(err?.localizedDescription as Any)
             } else {
-                self?.showLoginController()
+                self?.showFirstPageController()
             }
         }
     }
@@ -86,9 +86,9 @@ class ProfileController: UIViewController {
         }
     }
     
-    func showLoginController() {
-        let loginVC = UINavigationController(rootViewController: LoginController())
-        self.present(loginVC, animated: true, completion: nil)
+    func showFirstPageController() {
+        let firstPageVC = UINavigationController(rootViewController: FirstPageController())
+        self.present(firstPageVC, animated: true, completion: nil)
     }
     
 }

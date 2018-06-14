@@ -23,12 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         let tabBarController = StoreFrontController()
         
-        let tabViewController1 = HomeController()
-        let tabViewController2 = ProfileController()
-                
-        let controllers = [tabViewController1,tabViewController2]
-        tabBarController.viewControllers = controllers
-        
         window?.makeKeyAndVisible()
 
         
